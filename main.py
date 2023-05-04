@@ -16,7 +16,6 @@ client = tweepy.Client(
     access_token=access_token, access_token_secret=access_token_secret
 )
 
-
 class TweeterPostTool(BaseTool):
     name = "Twitter Post Tweet"
     description = "Use this tool to post a tweet to twitter."
@@ -27,7 +26,7 @@ class TweeterPostTool(BaseTool):
 
     async def _arun(self, query: str) -> str:
         """Use the tool asynchronously."""
-        raise NotImplementedError("BingSearchRun does not support async")
+        raise NotImplementedError("This tool does not support async")
 
 
 if __name__ == '__main__':
