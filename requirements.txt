@@ -1,3 +1,8 @@
 langchain
 openai
 tweepy
+# needed for voice
+sounddevice
+soundfile
+keyboard
+elevenlabs
