@@ -1,6 +1,10 @@
-# Virtual Assistant with Langchain README
+<!-- @format -->
+
+# Virtual Assistant with Langchain
 
 This is a basic guide on how to set up and run a virtual assistant project that connects to your calendar, email, and Twitter accounts using Langchain, Tweepy, and Zapier.
+
+[![Youtube thumbnail](thumb.png)](https://youtu.be/N4k459Zw2PU)
 
 ## Prerequisites
 
