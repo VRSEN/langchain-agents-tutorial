@@ -36,7 +36,8 @@ access_token_secret = "<ACCESS_TOKEN_SECRET>"
 ```
 
 ```python
-llm = OpenAI(temperature=0, api_key="<OPENAI_API_KEY>")
+set_api_key("<11LABS_API_KEY>")
+openai.api_key = "<OPENAI_API_KEY>"
 ```
 
 ```python
